@@ -261,7 +261,7 @@ div#preloader {
 }
 
 #header .logo h1 {
-  font-size: 36px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -281,7 +281,7 @@ div#preloader {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 60px;
 }
 
 @media (max-width: 768px) {
@@ -291,7 +291,7 @@ div#preloader {
   }
 
   #header .logo h1 {
-    font-size: 28px;
+    font-size: 30px;
   }
 }
 
@@ -1029,43 +1029,11 @@ div#preloader {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.pst-content {
-  padding-left: 10px;
-}
 
-#portfolio-flters {
-  padding: 0;
-  margin: 5px 0 35px 0;
-  list-style: none;
-  text-align: center;
-}
+.tituloProductos {
+  margin-top: 100px;
+   }
 
-#portfolio-flters li {
-  cursor: pointer;
-  margin: 15px 15px 15px 0;
-  display: inline-block;
-  padding: 8px 24px;
-  font-size: 12px;
-  line-height: 20px;
-  color: #555;
-  border-radius: 50px;
-  text-transform: uppercase;
-  background: #fff;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
-  border: 1px solid #444;
-}
-
-#portfolio-flters li:hover,
-#portfolio-flters li.filter-active {
-  border-color: #3EC1D5;
-  background: #3EC1D5;
-  color: #fff;
-}
-
-#portfolio-flters li:last-child {
-  margin-right: 0;
-}
 
 .single-awesome-portfolio {
   float: left;
@@ -1317,7 +1285,7 @@ div#preloader {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/background/slider-bg.jpg") no-repeat;
+  background: url("../img/opiniones.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -2122,37 +2090,8 @@ span.email-notes {
 # Footer
 --------------------------------------------------------------*/
 .footer-area {
-  padding: 40px 0;
+  padding: 5px 0;
   background: #f9f9f9;
-}
-
-.footer-head p {
-  color: #444;
-}
-
-.footer-head h4 {
-  color: #444;
-  font-size: 16px;
-  letter-spacing: 2px;
-  padding-bottom: 10px;
-  text-transform: uppercase;
-}
-
-.footer-logo {
-  padding-bottom: 20px;
-}
-
-.footer-logo h2 {
-  color: #222;
-  padding: 0;
-  margin: 0;
-  font-size: 36px;
-  font-weight: bold;
-  line-height: 1;
-}
-
-.footer-logo h2 span {
-  color: #3ec1d5;
 }
 
 .footer-icons ul li {
@@ -2160,7 +2099,7 @@ span.email-notes {
 }
 
 .footer-icons ul li a {
-  border: 1px solid #444;
+  border: 1px solid #444444;
   color: #444;
   display: block;
   font-size: 16px;
@@ -2176,8 +2115,10 @@ span.email-notes {
   line-height: 0;
 }
 
-.footer-icons ul li a i {
-  line-height: 0;
+.imglogo {
+  width: 75px; /* Ajusta el tamaño según sea necesario */
+  display: block; /* Convierte la imagen en un bloque para controlar márgenes */
+  margin right: 60px;
 }
 
 .flicker-img>a {
